@@ -3,15 +3,15 @@ A very simple & easy-to-use RCON client for TCP based RCON servers.
 
 ## Installation
 ```js
-npm install simple-rcon
-yarn install simple-rcon
+npm install easy-rcon
+yarn install easy-rcon
 ```
 
 ## Usage
 
 **Example NodeJS Script**
 ```js
-import RCON from "simple-rcon"
+import RCON from "easy-rcon"
 
 try {
     const rcon = RCON()
