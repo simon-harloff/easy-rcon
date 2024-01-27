@@ -19,6 +19,11 @@
   "repository": "https://github.com/simon-harloff/easy-rcon",
   "author": "Simon Harloff <simon.harloff.dev@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "RCON",
+    "rcon",
+    "async/await"
+  ],
   "devDependencies": {
     "del-cli": "^5.1.0",
     "parcel": "^2.11.0"
