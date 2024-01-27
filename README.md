@@ -1,5 +1,5 @@
-# Simple RCON Client
-A very simple RCON client for TCP based RCON servers.
+# Easy RCON
+A very simple & easy-to-use RCON client for TCP based RCON servers.
 
 ## Installation
 ```js
