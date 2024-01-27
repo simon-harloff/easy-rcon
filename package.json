@@ -1,6 +1,6 @@
 {
   "name": "easy-rcon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple & easy-to-use RCON client.",
   "source": "./src/index.js",
   "main": "./lib/index.cjs",
