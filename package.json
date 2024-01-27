@@ -1,0 +1,26 @@
+{
+  "name": "simple-rcon",
+  "version": "1.0.0",
+  "description": "A simple RCON client.",
+  "source": "./src/index.js",
+  "main": "./lib/index.cjs",
+  "module": "./lib/index.mjs",
+  "type": "module",
+  "exports": {
+    "require": "./lib/index.cjs",
+    "import": "./lib/index.mjs"
+  },
+  "scripts": {
+    "build": "parcel build",
+    "dev": "parcel watch",
+    "clean": "del-cli ./lib",
+    "prepack": "yarn build"
+  },
+  "repository": "https://github.com/simon-harloff/simple-rcon",
+  "author": "Simon Harloff <simon.harloff@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "del-cli": "^5.1.0",
+    "parcel": "^2.11.0"
+  }
+}
