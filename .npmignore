@@ -1,0 +1,6 @@
+.parcel-cache/
+node_modules/
+src/
+.idea/
+
+yarn-error.log
