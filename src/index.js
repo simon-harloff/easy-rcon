@@ -22,7 +22,7 @@ const PACKET_TYPE = {
  */
 function getPayload(buffer) {
     const size = buffer.subarray(0, 4).readInt32LE()
-    return buffer.subarray(12, 12 + (size - 9)).toString('ascii')
+    return buffer.subarray(12, 12 + (size - 10)).toString('ascii')
 }
 
 /**
